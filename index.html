@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AutoShop AI – Frontend</title>
+    <style>
+      :root { --pad: 16px; }
+      body { font-family: system-ui, Arial, sans-serif; margin: var(--pad); }
+      h1, h2, h3 { margin: 12px 0; }
+      section { border: 1px solid #eee; border-radius: 8px; padding: var(--pad); margin-top: var(--pad); }
+      button { padding: 8px 12px; margin: 4px; cursor: pointer; }
+      input, select { padding: 6px 8px; margin: 4px; }
+      .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+      pre { background: #f7f7f7; padding: 12px; border-radius: 6px; overflow:auto; }
+      .muted { color: #666; }
+      .ok { color: #0a7; }
+      .err { color: #b00; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
